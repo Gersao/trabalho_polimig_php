@@ -19,7 +19,11 @@
  			$raiz = sqrt($numero);
  			echo "A raiz de: " . $numero . " é: " . $raiz;
 		}
-		
+	//Delta -Yuri Sancle--Bernardo
+	public function delta($a,$b,$c){
+		 $delta = ($b*$b)-((4*$a)*$c);
+		 echo "O delta de $a, $b e $c é :" . $delta ;
+	 }	
 		
 	
 	    /*
