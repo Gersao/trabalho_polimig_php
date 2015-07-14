@@ -77,3 +77,10 @@
 
 	
 ?>
+
+	//Números aleatórios,Pablo e Maxwell
+		$q = $_GET[‘quantidade’];
+		for ($i=1;$i<=$q;$i++) {
+			 echo rand(1,100000) .” “;
+
+}
