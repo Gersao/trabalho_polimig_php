@@ -74,8 +74,23 @@
 	{
 		echo "$num não é primo!!!";
 	}
+	//Proximo numero primo, feito por Gabriel Moises e Gabriel Simiao
+		public function proximoPrimo ($numero){
+			
+		$numero = $_POST['numero'];
+		$numero++;
+		while ($teste = n){
+		if (gmp_prob_prime($numero)) {
+		print $numero' É o proximo primo';
+		$teste = s;
+		} else {
+		$numero++;
+		$teste = n;
+		}
 
+		}
 	
+	}	
 ?>
 
 	//Números aleatórios,Pablo e Maxwell
