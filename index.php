@@ -14,7 +14,7 @@
 	*/
 	
 	class Miscelanea{
-		//raiz do numero feito pro pedro e samael
+		//raiz do numero feito por pedro e samael
 		Public function raiz($numero){
  			$raiz = sqrt($numero);
  			echo "A raiz de: " . $numero . " é: " . $raiz;
